@@ -9,7 +9,7 @@
   <title>CasiFYVE</title>
 
   <!-- 0. FavIcon -->
-  <link rel="shortcut icon" href="images/hplogo.png" type="image/x-icon">
+  <link rel="shortcut icon" href="../images/hplogo.png" type="image/x-icon">
 
   <!-- 1. Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -29,7 +29,7 @@
 
   <!-- 4. Main CSS Files -->
   <!-- stylesheets/styles.css serves as the entry point for global css files. -->
-  <link href="styles.css" rel="stylesheet" type="text/css" />
+  <link href="../styles/about-us.css" rel="stylesheet" type="text/css" />
 
   <!-- JavaScript Bundle with Popper -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
@@ -38,7 +38,36 @@
 </head>
 
 <body>
-  <main class="container-fluid">
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <div class="container-fluid">
+        <div class="__nav-hamburger">
+  
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-hamburger"
+            aria-controls="navbar-hamburger" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+  
+          <div class="collapse navbar-collapse" id="navbar-hamburger">
+  
+            <div class="navbar-nav mt-2 text-center">
+              <a class="nav-item nav-link ms-lg-3 active" href="/menu/index.html">MENU</a>
+              <a class="nav-item nav-link" href="/testimonials/index.html">TESTIMONIALS</a>
+              <a class="nav-item nav-link" href="/about-us/index.html">ABOUT US</a>
+            </div>
+  
+          </div>
+  
+        </div>
+  
+        <div class="navbar-brand">
+          <img src="../images/hplogo.png" width="50" height="50" />
+        </div>
+      </div>
+    </nav>
+
+  <main class="container-fluid mt-5">
 
     <div class="__main-ctn row">
       <section class="__ctn-1 col">
