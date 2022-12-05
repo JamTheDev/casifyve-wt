@@ -1,0 +1,13 @@
+.dishes {
+  height: 100vh;
+}
+
+.dishes .left {
+  background-image: linear-gradient(to left, #D88700, #FF9F00);
+
+  color: white;
+}
+
+.dishes .right {
+  
+}

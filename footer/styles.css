@@ -1,0 +1,77 @@
+@import url("../styles/index.css");
+
+/**********/
+/***** Main Footer Styles *****/
+/**********/
+footer{
+    background-color: #393939;
+    color: #fff;
+
+    height: 60vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+footer .row {
+    display: flex;
+    justify-content: center;
+}
+
+
+hr{
+    width: 30%;
+}
+
+/**********/
+/***** Container 1 Styles *****/
+/**********/
+
+.__footer-ctn-1{
+    background-color: #000;
+    /* background-color: #6c3c00; */
+
+    height: 80%;
+}
+
+
+/**********/
+/***** Container 2 Styles *****/
+/**********/
+.__footer-heading{
+    color: #E3AF6F;
+}
+
+.__footer-ctn-2{
+    margin-top: 9.15vh;
+}
+
+.__footer-subctn-2{
+    font-weight: bold;
+}
+
+.__footer-subctn-2 a{
+    display: block;
+    font-weight: normal;
+    text-decoration: none;
+    color: #fff;
+}
+
+.__footer-social-icons > i{
+    text-shadow: .75px 1.5px 4px darkgrey;
+}
+
+.__footer-ctn-1{
+    box-shadow: .5rem 0.7rem 0.2rem 0px rgba(0, 0, 0, 0.3);
+}
+
+
+.form-control:focus {
+    border-color: #E3AF6F;
+    box-shadow: 0 0 0 0.25rem #402300;
+} /* Bootstrap Form Style Override) */ 
+
+/**********/
+/***** TBA *****/
+/**********/
