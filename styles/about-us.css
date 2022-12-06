@@ -1,56 +1,57 @@
 @import url(components/glassmorphism.css);
 @import url(/styles/index.css);
 
-.__main-ctn{
-    background: #000 url("../images/about-us--image-bg.jpg") no-repeat;
-    content: '';
-    position: absolute;
-    background-size: cover !important;
-    opacity: 1;
-    width: 100vw;
-    min-height: 100vh;
-    z-index: -2;
+.__main-ctn {
+  background: #000 url("../images/about-us--image-bg.jpg") no-repeat;
+  content: '';
+  position: absolute;
+  background-size: cover !important;
+  opacity: 1;
+  width: 100vw;
+  min-height: 100vh;
+  z-index: -2;
 }
 
-.__title{
+.__title {
   color: #FECEFE;
 }
 
-.__title, .__aboutus-text{
-
-    text-shadow:
-   -1px -1px 0 #23003e80,  
+.__title,
+.__aboutus-text {
+  text-shadow:
+    -1px -1px 0 #23003e80,
     1px -1px 0 #23003e80,
     -1px 1px 0 #23003e80,
-     1px 1px 0 #23003e80;
-  
+    1px 1px 0 #23003e80;
+
 }
 
-.__aboutus-text{
+.__aboutus-text {
   font-size: 1.15rem;
 }
 
-.__title{
+.__title {
   text-align: end;
 }
-.__ctn-2 p{
-    text-indent: 2.25rem;
-    text-align: justify;
+
+.__ctn-2 p {
+  text-indent: 2.25rem;
+  text-align: justify;
 }
 
-body{
-    color: #fff;
-    overflow-x: hidden;
+body {
+  color: #fff;
+  overflow-x: hidden;
 }
 
 .glassmorphism {
-  background: linear-gradient(120deg, 
-  rgba(255, 255, 255, 0.08) 10.5%,
-  rgba(205, 0, 157, 0.1) 50.5%,
-  rgba(255, 0, 187, 0.1) 70.5%, 
-  rgba(255, 153, 0, 0.1) 100%);
+  background: linear-gradient(120deg,
+      rgba(255, 255, 255, 0.08) 10.5%,
+      rgba(205, 0, 157, 0.1) 50.5%,
+      rgba(255, 0, 187, 0.1) 70.5%,
+      rgba(255, 153, 0, 0.1) 100%);
 
-  
+
 
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(15px);
@@ -60,23 +61,26 @@ body{
 }
 
 @media screen and (max-width: 768px) {
-/* Media Query - If device width is less than 768px */
+
+  /* Media Query - If device width is less than 768px */
   .__ctn-2 {
     padding: 3rem;
   }
 
-  .__title{
+  .__title {
     text-align: center;
   }
 
-.glassmorphism {
-  backdrop-filter: blur(25px);
-  -webkit-backdrop-filter: blur(25px);
-  border-radius: 3% 3% 0 0;
-} /* Modify Glassmorph */
+  .glassmorphism {
+    backdrop-filter: blur(25px);
+    -webkit-backdrop-filter: blur(25px);
+    border-radius: 3% 3% 0 0;
+  }
 
-.__aboutus-text{
-  font-size: 1rem;
-}
-   
+  /* Modify Glassmorph */
+
+  .__aboutus-text {
+    font-size: 1rem;
+  }
+
 }

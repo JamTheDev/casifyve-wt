@@ -1,8 +1,8 @@
 @import url("components/navbar.css");
 
 body {
-  background-color: #FCC13A;
-  /* overflow-x: hidden; */
+   background-color: #FCC13A;
+   /* overflow-x: hidden; */
 }
 
 /* .__part-1 .__discpHolder{
@@ -20,45 +20,36 @@ background-color: #FCC13A;
    justify-content: center;
    flex-direction: column;
 }
+
 .__main-menu-container2 {
    justify-content: center;
    flex-direction: column;
 }
+
 .row1 {
    display: flex;
    justify-content: center;
    justify-content: space-evenly;
 }
+
 .row2 {
    display: flex;
    justify-content: center;
    justify-content: space-evenly;
 }
+
 .__first-dish-container {
-   background-color: #E3AF6F;
    padding-right: 15px;
 }
-.__second-dish-container {
-   background-color: #E3AF6F;
-}
-.__third-dish-container {
-   background-color: #E3AF6F;
-}
-.__fourth-dish-container {
-   background-color: #E3AF6F;
 
-}
-.__fifth-dish-container {
-   background-color: #E3AF6F;
-}
+.__first-dish-container,
+.__second-dish-container,
+.__third-dish-container,
+.__fourth-dish-container,
+.__fifth-dish-container,
 .__sixth-dish-container {
+   filter: drop-shadow(5px 5px 3px);
    background-color: #E3AF6F;
-}
-
-.__first-dish-container, .__second-dish-container, 
-.__third-dish-container, .__fourth-dish-container, 
-.__fifth-dish-container, .__sixth-dish-container {
-   filter: drop-shadow(5px 5px 3px );
 }
 
 /* .__menu-hr-line{
@@ -67,28 +58,46 @@ background-color: #FCC13A;
    height: 1rem;
 } */
 
-.__divider span { 
+
+
+/********** Part-1 - Silog Meal and HR Sect. Styles ************/
+/********** ************/
+
+.__divider span {
    display: inline-block;
    margin: 0.45rem 0;
 }
 
-.__divider span:first-child, .__divider span:last-child {
+.__divider span:first-child,
+.__divider span:last-child {
    max-width: 30vw;
    min-height: 2vh;
-}
+   border-radius: 1rem;
+} /* Size of HR */
 
 .__divider span:first-child {
-   background-image: linear-gradient(90deg, transparent 5%, #7D4223);
-}
+   background-image: linear-gradient(-90deg, #923f1310 1%, #924013 30%, #7D4223 60%, transparent);
+} /* Color of HR-Left */
 
 .__divider span:nth-child(2) {
    color: #551f02;
    font-family: 'Inter';
-   font-weight: 700;
    text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-
-}
+} /* Middle Text */
 
 .__divider span:last-child {
-    background-image: linear-gradient(90deg, #924013 30%, #7D4223 95%, transparent );
+   background-image: linear-gradient(90deg, #923f1310 1%, #924013 30%, #7D4223 60%, transparent);
+} /* Color of HR-Right */
+
+/********** ************/
+
+/********** ************/
+
+.__menu-main-ctn > div{
+   width: 18rem;
+}
+
+.__menu-main-ctn > .card > .card-img-top {
+   min-width: 100%;
+   height: 155px !important;
 }
