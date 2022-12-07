@@ -120,7 +120,7 @@ background-color: #FCC13A;
    text-transform: uppercase;
 }
 
-..card-body a, card-body a:hover , .card-body a:active{
+.card-body a, card-body a:hover , .card-body a:active{
    background-color: var(--menu-btn-clr-1);
 
 }
