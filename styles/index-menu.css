@@ -3,70 +3,20 @@
 *{
    --menu-btn-clr-1:#D65B16;
    --ctn-clr-1: #E3AF6F;
+   --grad-hr-clr: #923f1310 1%, #924013 30%, #7D4223 60%, transparent
 }
 
 body {
-   background-color: #FCC13A;
+   /* background-color:#FCC13A ; */
+   background: linear-gradient(60deg, rgba(199, 104, 15, 0.6), #FCC13A, rgba(245,122,8,0.6)) ;
+
    /* overflow-x: hidden; */
 }
 
-/* .__part-1 .__discpHolder{
-  
-background-color: #FCC13A;
-}
-.__part-1 .__discpHolder .__discpBox {
-   height: 18rem;
-   border: 1px solid #000;
-   filter: drop-shadow(5px 5px 3px ); 
-} */
 
-
-.__main-menu-container1 {
-   justify-content: center;
-   flex-direction: column;
-}
-
-.__main-menu-container2 {
-   justify-content: center;
-   flex-direction: column;
-}
-
-.row1 {
-   display: flex;
-   justify-content: center;
-   justify-content: space-evenly;
-}
-
-.row2 {
-   display: flex;
-   justify-content: center;
-   justify-content: space-evenly;
-}
-
-.__first-dish-container {
-   padding-right: 15px;
-}
-
-.__first-dish-container,
-.__second-dish-container,
-.__third-dish-container,
-.__fourth-dish-container,
-.__fifth-dish-container,
-.__sixth-dish-container {
-   filter: drop-shadow(5px 5px 3px);
-   background-color: #E3AF6F;
-}
-
-/* .__menu-hr-line{
-   width: 25%;
-   display: inline-block;
-   height: 1rem;
-} */
-
-
-
-/********** Part-1 - Silog Meal and HR Sect. Styles ************/
-/********** ************/
+/**********************/
+/**********  Part-2 - Silog Meal and HR Sect. Styles  ************/
+/**********************/
 
 .__divider span {
    display: inline-block;
@@ -81,7 +31,7 @@ background-color: #FCC13A;
 } /* Size of HR */
 
 .__divider span:first-child {
-   background-image: linear-gradient(-90deg, #923f1310 1%, #924013 30%, #7D4223 60%, transparent);
+   background-image: linear-gradient(-90deg, var(--grad-hr-clr));
 } /* Color of HR-Left */
 
 .__divider span:nth-child(2) {
@@ -91,12 +41,13 @@ background-color: #FCC13A;
 } /* Middle Text */
 
 .__divider span:last-child {
-   background-image: linear-gradient(90deg, #923f1310 1%, #924013 30%, #7D4223 60%, transparent);
+   background-image: linear-gradient(90deg, var(--grad-hr-clr));
 } /* Color of HR-Right */
 
-/********** ************/
 
-/********** ************/
+/**********************/
+/**********  Part-2 - Silog Meal Container Styles  ************/
+/**********************/
 
 .__menu-main-ctn > div{
    width: 18rem;
@@ -108,32 +59,42 @@ background-color: #FCC13A;
 .__menu-main-ctn > .card > .card-img-top {
    min-width: 100%;
    height: 155px !important;
-   border-radius: 2%;
 }
+
+.card {
+   border-radius: 15px;
+}
+.card-img-top {
+   border-radius: 12px;
+   box-shadow:  3px 3px 7px ;
+}
+
 
 .card-text{
-   min-height: 50px;
+   min-height: 30px;
+   font-size: 13px;
+   text-align: auto;
 }
-
-.card-title{
-   font-weight: bolder;
-   text-transform: uppercase;
-}
-
-.card-body a, card-body a:hover , .card-body a:active{
-   background-color: var(--menu-btn-clr-1);
-
-}
-
 
 .card-body a{
-   color: #000;
-   font-weight: bolder;
-   border: 0.5px solid rgba(0, 0, 0, 0.55);
+   color: rgb(255,255,255) !important;
+   border: 1.75px solid rgba(11, 5, 5, 0.35);
 }
 
-.card-body a:hover , .card-body a:active{
+.card-title, 
+.card-body a{
+   font-weight: bolder;
+}
+
+.card-body a, 
+.card-body a:hover, 
+.card-body a:active{
    background-color: var(--menu-btn-clr-1);
+   pointer-events: none;
+}
+
+.card-body a:hover, 
+.card-body a:active{
    border: 0.1px solid rgba(0, 0, 0, 0.1);
-   box-shadow: 1px 1px 4px 2px rgba(0, 0, 0, 0.55);
+   box-shadow: 2px 2px 5px;
 }
