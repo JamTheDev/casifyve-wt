@@ -83,7 +83,7 @@
             <div class="w-100" style="background-color: #FF823D; height: 25vh; padding: 20px;">
                 <div class="d-flex justify-content-center align-items-center text-center card w-100 h-100"
                     style="background-color: #D65B16;">
-                    <span class="fs-3">DESCRIPTION</span>
+                    <span class="fs-3 fw-bold">DESCRIPTION</span>
                     <span class="fs-6 text-white" style="padding-left: 15%; padding-right: 15%;">Lorem ipsum dolor sit
                         amet consectetur adipisicing elit. Ad corporis adipisci pariatur blanditiis repellat?
                         Voluptates, ipsum! Officiis distinctio dolores explicabo placeat quas consequatur cumque
@@ -98,27 +98,56 @@
                     style="background-color: #E69C41; overflow: hidden;">
                     <img class=" h-100 position-relative pt-3 pb-3" src="/images/menu-food/bangsilog.png"
                         style="border-radius: 20px 20px 20px 20px;" />
-                    <div class="w-25 h-75" style="background-color: #D65B16; border-radius: 0 10px 10px 0;">
-                        <div id="carouselControls" class="carousel slide" data-bs-ride="carousel">
+                    <div class="position-relative w-25 h-75"
+                        style="background-color: #D65B16; border-radius: 0 10px 10px 0;">
+                        <div id="carouselExampleControls" class="position-absolute carousel slide w-100 h-100"
+                            data-bs-ride="carousel">
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                                    class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                                    aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                                    aria-label="Slide 3"></button>
+                            </div>
                             <div class="carousel-inner">
-                                <div class="carousel-item active">
+                                <div class="carousel-item active" style="overflow: scroll;">
+                                    <div class="d-flex justify-content-center">
+                                        <span class="fs-3">SILOG MEALS</span>
+                                    </div>
+                                    <div class="w-100 h-100 row gap-3 d-flex justify-content-center" style="overflow: scroll;">
+                                        <div class="col-5 bg-danger" style="background-image: url(/images/menu-food/bangsilog.png); height: 8rem;">
+                                            asd
+                                        </div>
+                                        <div class="col-5 bg-danger" style="background-image: url(/images/menu-food/bangsilog.png);">
+                                            asd
+                                        </div>
 
+                                        <div class="col-5 bg-danger" style="background-image: url(/images/menu-food/bangsilog.png); height: 8rem;">
+                                            asd
+                                        </div>
+                                        <div class="col-5 bg-danger" style="background-image: url(/images/menu-food/bangsilog.png);">
+                                            asd
+                                        </div>
+
+                                        
+                                    </div>
                                 </div>
                                 <div class="carousel-item">
-
+                                    World
                                 </div>
                                 <div class="carousel-item">
-
+                                    123
                                 </div>
                             </div>
-
-                            <div class="position-relative bottom-0">
-                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselControls">
+                            <div class="bottom-0">
+                                <button class="carousel-control-prev d-flex align-items-end p-2" type="button"
+                                    data-bs-target="#carouselExampleControls" data-bs-slide="prev">
                                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                     <span class="visually-hidden">Previous</span>
                                 </button>
-
-                                <button class="carousel-control-next" type="button" data-bs-target="#carouselControls">
+                                <button class="carousel-control-next d-flex align-items-end p-2" type="button"
+                                    data-bs-target="#carouselExampleControls" data-bs-slide="next">
                                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                     <span class="visually-hidden">Next</span>
                                 </button>
