@@ -79,83 +79,71 @@
 
 
     <main>
-        <section class="__part-1">
-            <div class="w-100" style="background-color: #FF823D; height: 25vh; padding: 20px;">
-                <div class="d-flex justify-content-center align-items-center text-center card w-100 h-100"
-                    style="background-color: #D65B16;">
+        <section class="__part-1 row">
+            <div class="col-12 p-4">
+                <div class="__description-ctn card col col-sm-11 col-md-9 col-lg-8 col-xxl-7 p-4 mx-auto text-center">
                     <span class="fs-3 fw-bold">DESCRIPTION</span>
-                    <span class="fs-6 text-white" style="padding-left: 15%; padding-right: 15%;">Lorem ipsum dolor sit
+                    <span class="fs-6">Lorem ipsum dolor sit
                         amet consectetur adipisicing elit. Ad corporis adipisci pariatur blanditiis repellat?
                         Voluptates, ipsum! Officiis distinctio dolores explicabo placeat quas consequatur cumque
                         exercitationem! Commodi maxime architecto qui doloribus.</span>
                 </div>
-            </div>
+            </div> <!-- Description Container-->
 
-            <div class="w-100 d-flex justify-content-center align-items-center pt-4 pb-4"
-                style="background-color: #FCC13A; height: 65vh;">
-                <section
-                    class="position-relative d-flex flex-row justify-content-center align-items-center  h-100 w-100"
-                    style="background-color: #E69C41; overflow: hidden;">
-                    <img class=" h-100 position-relative pt-3 pb-3" src="/images/menu-food/bangsilog.png"
-                        style="border-radius: 20px 20px 20px 20px;" />
-                    <div class="position-relative w-25 h-75"
-                        style="background-color: #D65B16; border-radius: 0 10px 10px 0;">
-                        <div id="carouselExampleControls" class="position-absolute carousel slide w-100 h-100"
-                            data-bs-ride="carousel">
+            <div class="__carousel-ctn container-fluid row px-0 py-4">
+                <section class="col mx-auto d-flex flex-row justify-content-center align-items-center" style=" overflow: hidden;">
+                    <img class="py-3 rounded-5" src="/images/menu-food/bangsilog.png" />
+                    
+                    <div class="position-relative w-25 h-75" style="border-radius: 0 10px 10px 0;">
+                        
+                        <div id="carouselMenuControls" class="position-absolute carousel slide w-100 h-100" data-bs-ride="carousel">
                             <div class="carousel-indicators">
-                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
-                                    class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                                    aria-current="true" aria-label="Slide 1"></button>
                                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
                                     aria-label="Slide 2"></button>
                                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
                                     aria-label="Slide 3"></button>
                             </div>
+
                             <div class="carousel-inner">
-                                <div class="carousel-item active" style="overflow: scroll;">
+                                <section class="carousel-item active" style="overflow: hidden;">
                                     <div class="d-flex justify-content-center">
                                         <span class="fs-3">SILOG MEALS</span>
                                     </div>
-                                    <div class="w-100 h-100 row gap-3 d-flex justify-content-center" style="overflow: scroll;">
-                                        <div class="col-5 bg-danger" style="background-image: url(/images/menu-food/bangsilog.png); height: 8rem;">
-                                            asd
-                                        </div>
-                                        <div class="col-5 bg-danger" style="background-image: url(/images/menu-food/bangsilog.png);">
-                                            asd
-                                        </div>
 
-                                        <div class="col-5 bg-danger" style="background-image: url(/images/menu-food/bangsilog.png); height: 8rem;">
-                                            asd
-                                        </div>
-                                        <div class="col-5 bg-danger" style="background-image: url(/images/menu-food/bangsilog.png);">
-                                            asd
-                                        </div>
-
-                                        
+                                    <div class="w-100 h-100 row gap-3 d-flex justify-content-center" style="overflow: hidden;">
+                                        <div class="col-5 rounded-4 bg-danger" style="background-image: url(/images/menu-food/bangsilog.png); height: 8rem;">1</div>
+                                        <div class="col-5 rounded-4 bg-danger" style="background-image: url(/images/menu-food/bangsilog.png);">2</div>
+                                        <div class="col-5 rounded-4 bg-danger" style="background-image: url(/images/menu-food/bangsilog.png); height: 8rem;">3</div>
+                                        <div class="col-5 rounded-4 bg-danger" style="background-image: url(/images/menu-food/bangsilog.png);">4</div>
                                     </div>
-                                </div>
-                                <div class="carousel-item">
-                                    World
-                                </div>
-                                <div class="carousel-item">
-                                    123
-                                </div>
+
+                                </section>
+
+                                <section class="carousel-item">Slide 2</section>
+                                <section class="carousel-item">Slide 3</section>
+                                
                             </div>
+
                             <div class="bottom-0">
                                 <button class="carousel-control-prev d-flex align-items-end p-2" type="button"
-                                    data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                                    data-bs-target="#carouselMenuControls" data-bs-slide="prev">
                                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                     <span class="visually-hidden">Previous</span>
                                 </button>
                                 <button class="carousel-control-next d-flex align-items-end p-2" type="button"
-                                    data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                                    data-bs-target="#carouselMenuControls" data-bs-slide="next">
                                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                     <span class="visually-hidden">Next</span>
                                 </button>
                             </div>
                         </div>
+                        
                     </div>
                 </section>
-            </div>
+            </div> <!-- Silog Meals Carousel Container-->
+
         </section> <!-- 1st part -->
 
         <section class="__part-2">
@@ -170,9 +158,9 @@
                 </section> <!-- Silog Meals & HR-->
 
                 <section class="container-fluid my-4 row mx-auto">
-                    <div class="__menu-main-ctn row col col-sm-12 col-xl-11 col-xxl-9 mx-auto">
+                    <div class="__menu-main-ctn row col col-sm-12 col-xl-10 col-xxl-8 mx-auto">
 
-                        <div class="card col-11 col-md-8 col-lg-4 mx-auto mb-3 mb-sm-4 mb-lg-5">
+                        <div class="card col-11 col-md-6 col-lg-4 mx-auto mb-3 mb-sm-4 mb-lg-5">
                             <img class="card-img-top mt-3" src="../images/menu-foods/dish-1-bangsilog-crop.png"
                                 alt="Card image cap">
                             <div class="card-body">

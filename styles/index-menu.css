@@ -15,6 +15,46 @@ body {
 
 
 /**********************/
+/**********  Part-1 - Description Ctn Styles  ************/
+/**********************/
+.__part-1 > div:first-child{
+   background-color: #FF823D;
+}
+
+.__description-ctn{
+   background-color: var(--menu-btn-clr-1);
+   border: 2px solid #551f0231;
+   color: #fff;
+}
+
+.__description-ctn span:last-child{
+   text-align: justify;
+   padding: 0.5rem 2.5rem;
+}
+
+
+/**********************/
+/**********  Part-1 - Silog Meals Carousel Container Styles  ************/
+/**********************/
+
+.__carousel-ctn{
+   background-color: #FCC13A;
+}
+
+.__carousel-ctn > section{
+   background-color: #E69C41;
+}
+
+.__carousel-ctn > section > div{
+   background-color: #D65B16;
+   overflow: hidden;
+}
+
+
+/**********************/ /**********************//**********************/ /**********************/ /**********************/ /**********************/
+/**********************/ /**********************//**********************/ /**********************/ /**********************/ /**********************/
+
+/**********************/
 /**********  Part-2 - Silog Meal and HR Sect. Styles  ************/
 /**********************/
 
@@ -64,11 +104,11 @@ body {
 .card {
    border-radius: 15px;
 }
+
 .card-img-top {
    border-radius: 12px;
    box-shadow:  3px 3px 7px ;
 }
-
 
 .card-text{
    min-height: 30px;
@@ -92,6 +132,7 @@ body {
    background-color: var(--menu-btn-clr-1);
    pointer-events: none;
 }
+
 
 .card-body a:hover, 
 .card-body a:active{
