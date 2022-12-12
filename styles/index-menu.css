@@ -15,6 +15,115 @@ body {
 
 
 /**********************/
+/**********  Part-1 - Description Ctn Styles  ************/
+/**********************/
+.__part-1 > div:first-child{
+   background-color: #FF823D;
+}
+
+.__description-ctn{
+   background-color: var(--menu-btn-clr-1);
+   border: 2px solid #551f0231;
+   color: #fff;
+}
+
+.__description-ctn span:last-child{
+   text-align: justify;
+   padding: 0.5rem 2.5rem;
+}
+
+
+/**********************/
+/**********  Part-1 - Silog Meals Carousel Container Styles  ************/
+/**********************/
+
+.__carousel-ctn{
+   background-color: #FCC13A;
+}
+
+.__carousel-ctn > section{
+   background-color: #E69C41;
+}
+
+.__carousel-ctn > section > div:last-child{
+   background-color: #D65B16;
+   overflow: hidden;
+}
+
+.__carousel-item-body > :nth-child(odd){
+   height: 8rem;
+   background-image: url(/images/menu-food/bangsilog.png);
+   right: 85%;
+} 
+
+
+section.carousel-item > div > span.fs-3{
+   color: #000 !important;
+}
+
+
+/**********************/
+/**********  Part-1 - Carousel Arrows + Indicators Sect. Styles  ************/
+/**********************/
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon{
+   width: 5rem;
+   height: 2.5rem;
+   box-shadow: 0px 2px 15px 2px rgba(0, 0, 0, 0.5);
+   border-radius: 15%;
+}
+
+.carousel-control-prev-icon{
+   background-image: url(/images/carousel-arrows/prev-arrow.png);
+}
+.carousel-control-next-icon{
+   background-image: url(/images/carousel-arrows/next-arrow.png);
+}
+
+.carousel-indicators [data-bs-target] {
+   width: 20px;
+   height: 20px;
+   border-radius: 50%;
+   margin:0px 6px;
+   background-color: #D9D9D9;
+   opacity: .5;
+}
+
+.carousel-indicators > button.active{
+   background-color: #4c2701;
+}
+
+.carousel-indicators > button.active{
+   background-color: #4c2701;
+}
+
+.__carousel-item-body > div{
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+
+.__carousel-item-body > div:first-of-type{
+   background-image: url(/images/menu-foods/dish-1-bangsilog.png);
+}
+
+.__carousel-item-body > div:nth-of-type(2){
+   background-image: url(/images/menu-foods/dish-2-tosilog.png);
+}
+
+.__carousel-item-body > div:nth-of-type(3){
+   background-image: url(/images/menu-foods/dish-3-hotsilog.png);
+}
+
+.__carousel-item-body > div:last-of-type{
+   background-image: url(/images/menu-foods/dish-4-tapsilog.png);
+}
+
+/**********************/ /**********************//**********************/ /**********************/ /**********************/ /**********************/
+/**********************/ /**********************//**********************/ /**********************/ /**********************/ /**********************/
+
+/**********************/
 /**********  Part-2 - Silog Meal and HR Sect. Styles  ************/
 /**********************/
 
@@ -64,11 +173,11 @@ body {
 .card {
    border-radius: 15px;
 }
+
 .card-img-top {
    border-radius: 12px;
    box-shadow:  3px 3px 7px ;
 }
-
 
 .card-text{
    min-height: 30px;
@@ -92,6 +201,7 @@ body {
    background-color: var(--menu-btn-clr-1);
    pointer-events: none;
 }
+
 
 .card-body a:hover, 
 .card-body a:active{
