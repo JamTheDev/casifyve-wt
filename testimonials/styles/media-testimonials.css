@@ -1,0 +1,10 @@
+/* IF SCREEN WIDTH > 769px (bootstrap - md and up) */
+@media screen and (min-width: 769px) { 
+    .glassmorphism{ border-radius: 0 2.25% 2.25% 0; }
+}
+
+/* IF SCREEN WIDTH < 769px (bootstrap - sm and less) */
+@media screen and (max-width: 769px) {
+    .__testimonials-img { display: none; }
+}
+

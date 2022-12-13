@@ -1,5 +1,12 @@
 @import url(/styles/index.css);
 
+main{
+    min-height: 95vh;
+}
+
+main > div:first-child{
+    margin-top: 12.5vh;
+}
 
 .carousel-body {
     position: absolute;
@@ -9,14 +16,29 @@
     height: 100%;
 }
 
-.carousel-control-prev-icon{
-    background-image: url(/images/carousel-arrows/prev-arrow.png);
+.carousel-control-prev-icon,
+.carousel-control-next-icon
+{
     width: 3.25rem;
     height: 3.25rem;
+    margin-top: 4rem;
+}
+
+.carousel-control-next-icon{
+    width: 3.25rem;
+    height: 3.25rem;
+    margin-top: 4rem; /* ISSUE: NOT RESPONSIVE <- ONLY BANDAGE SOLUTION (FIX THIS TY) */
+}
+
+.carousel-control-prev-icon{
+    background-image: url(/images/carousel-arrows/prev-arrow.png);
 }
 
 .carousel-control-next-icon{
     background-image: url(/images/carousel-arrows/next-arrow.png);
-    width: 3.25rem;
-    height: 3.25rem;
+}
+
+.__testimonials-subctn{
+    color: white; 
+    font-size: 15px;
 }
