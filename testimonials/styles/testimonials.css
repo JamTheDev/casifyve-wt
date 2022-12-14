@@ -1,7 +1,8 @@
 @import url(/styles/index.css);
 
 main{
-    min-height: 95vh;
+    height: 1900px;
+    /* min-height: 95vh; */
 }
 
 main > div:first-child{
@@ -21,13 +22,7 @@ main > div:first-child{
 {
     width: 3.25rem;
     height: 3.25rem;
-    margin-top: 4rem;
-}
-
-.carousel-control-next-icon{
-    width: 3.25rem;
-    height: 3.25rem;
-    margin-top: 4rem; /* ISSUE: NOT RESPONSIVE <- ONLY BANDAGE SOLUTION (FIX THIS TY) */
+    /* margin-top: 30%; */
 }
 
 .carousel-control-prev-icon{

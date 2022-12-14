@@ -6,5 +6,7 @@
 /* IF SCREEN WIDTH < 769px (bootstrap - sm and less) */
 @media screen and (max-width: 769px) {
     .__testimonials-img { display: none; }
-}
 
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon { margin-top: 12rem; }
+}
