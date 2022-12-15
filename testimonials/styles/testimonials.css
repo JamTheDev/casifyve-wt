@@ -34,8 +34,8 @@ main > div:first-child{
 }
 
 .__testimonials-img, .__testimonials-subctn{
-    max-height: 400px !important;
-    max-width: 400px !important;
+    max-height: 400px;
+    max-width: 400px;
 }
 
 .__testimonials-subctn{
