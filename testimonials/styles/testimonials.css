@@ -1,7 +1,7 @@
 @import url(/styles/index.css);
 
 main{
-    height: 1900px;
+    max-height: 1900px;
     /* min-height: 95vh; */
 }
 
@@ -33,7 +33,16 @@ main > div:first-child{
     background-image: url(/images/carousel-arrows/next-arrow.png);
 }
 
+.__testimonials-img, .__testimonials-subctn{
+    max-height: 400px !important;
+    max-width: 400px !important;
+}
+
 .__testimonials-subctn{
     color: white; 
     font-size: 15px;
+}
+
+.__testimonials-main-ctn.row {
+    justify-content: center;
 }
