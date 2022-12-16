@@ -66,6 +66,10 @@ section.carousel-item > div > span.fs-3{
 /**********  Part-1 - Carousel Arrows + Indicators Sect. Styles  ************/
 /**********************/
 
+.__part-1{
+   margin-top: 14vh;
+}
+
 .carousel-control-prev-icon,
 .carousel-control-next-icon{
    width: 5rem;
