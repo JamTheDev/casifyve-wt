@@ -1,4 +1,12 @@
 /********** Navigation Harry Styles ************/
+nav > div.container-fluid{
+  align-items: flex-start !important; /* Aligns the logo to top*/
+}
+
+button.navbar-toggler{
+  margin-top: 0.95rem !important;
+}
+
 .navbar {
   width: 100%;
   background-color: #E69C41;
@@ -22,4 +30,12 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+/* IF SCREEN WIDTH < 769px (bootstrap - sm and less) */
+@media screen and (max-width: 769px) {
+  .navbar-nav{
+    /* position: relative;
+    left: 42vw; */
+  }
 }
