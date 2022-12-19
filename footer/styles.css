@@ -4,24 +4,21 @@
 /***** Main Footer Styles *****/
 /**********/
 footer{
-    background-color: #393939;
     color: #fff;
-
-    height: 50vh; 
+    height: 500px; 
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    background-color: #393939;
 }
 
-footer .row {
-    display: flex;
-    justify-content: center;
+footer > div.row{
+    background-color: #393939;
 }
-
 
 hr{
-    width: 30%;
+    width: 65%;
+    opacity: 0.15;
 }
 
 /**********/
