@@ -10,11 +10,10 @@ footer{
     justify-content: center;
     align-items: center;
     background-color: #393939;
+    padding: 0 !important;
+    
 }
 
-footer > div.row{
-    background-color: #393939;
-}
 
 hr{
     width: 65%;
@@ -28,8 +27,6 @@ hr{
 .__footer-ctn-1{
     background-color: #000;
     position: relative;
-    /* background-color: #6c3c00; */
-
     height: 80%;
     width: 70%;
     transform: translate(0, -20%);
