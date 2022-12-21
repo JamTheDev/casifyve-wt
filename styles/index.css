@@ -81,6 +81,11 @@ body{
   
 }
 
+.__text-justify{
+  text-align: justify;
+  text-indent: 1.75rem;
+}
+
 /********** GLASS MORPH TEXT ************/
 
 

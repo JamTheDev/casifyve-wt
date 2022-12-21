@@ -13,6 +13,10 @@ body {
    /* overflow-x: hidden; */
 }
 
+.__text-justify{
+   text-align: justify;
+   text-indent: 1.75rem;
+}
 
 /**********************/
 /**********  Part-1 - Description Ctn Styles  ************/
