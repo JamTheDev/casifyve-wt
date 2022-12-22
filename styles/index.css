@@ -1,13 +1,14 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&family=Montserrat:wght@400;600;700&family=Poppins:ital,wght@0,400;0,700;1,400&display=swap'); */
- @import url('https://fonts.googleapis.com/css2?family=Libre+Caslon+Text&display=swap'); 
- @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
- @import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Caslon+Text&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap');
 
-@import url("components/glassmorphism.css");
+@import url("/styles/components/glassmorphism.css");
+@import url("/styles/components/footer.css");
+@import url("/styles/components/footer-media.css");
+@import url("/styles/components/navbar.css");
+
 @import url("dishes.css");
-@import url("/footer/styles.css");
-
-@import url("components/navbar.css");
 @import url("hero.css");
 
 /* Hero Section */
