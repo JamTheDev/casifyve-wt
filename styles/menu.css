@@ -1,4 +1,5 @@
 @import url("components/navbar.css");
+@import url("../styles/menu-images.css");
 
 *{
    --menu-btn-clr-1:#D65B16;
@@ -52,11 +53,13 @@ body {
 .__carousel-ctn > section > div:last-child{
    background-color: #D65B16;
    overflow: hidden;
+   border: 1px solid #4c2701;
+   box-shadow: 0px 4px 4px 4px rgb(0 0 0 / 35%);
 }
 
 .__carousel-item-body > :nth-child(odd){
    height: 8rem;
-   background-image: url(/images/menu-food/bangsilog.png);
+   /* background-image: url(/images/menu-food/bangsilog.png); */
    right: 85%;
 } 
 
@@ -109,23 +112,6 @@ section.carousel-item > div > span.fs-3{
 .__carousel-item-body > div{
    background-repeat: no-repeat;
    background-size: cover;
-}
-
-
-.__carousel-item-body > div:first-of-type{
-   background-image: url(/images/menu-foods/dish-1-bangsilog.png);
-}
-
-.__carousel-item-body > div:nth-of-type(2){
-   background-image: url(/images/menu-foods/dish-2-tosilog.png);
-}
-
-.__carousel-item-body > div:nth-of-type(3){
-   background-image: url(/images/menu-foods/dish-3-hotsilog.png);
-}
-
-.__carousel-item-body > div:last-of-type{
-   background-image: url(/images/menu-foods/dish-4-tapsilog.png);
 }
 
 /**********************/ /**********************//**********************/ /**********************/ /**********************/ /**********************/

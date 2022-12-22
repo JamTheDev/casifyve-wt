@@ -1,0 +1,96 @@
+/**********************/
+/**********  Slide-1  ************/
+/**********************/
+.__carousel-item-1>div:first-of-type {
+    background-image: url(/images/raw-assets/0-Foods/chicksilog-1.png);
+    background-position: -1.6rem 0;
+}
+
+.__carousel-item-1>div:nth-of-type(2) {
+    background-image: url(/images/raw-assets/0-Foods/sisigsilog-1.png);
+    background-position: -1rem 0;
+}
+
+.__carousel-item-1>div:nth-of-type(3) {
+    background-image: url(/images/raw-assets/0-Foods/tapsilog-1.png);
+    background-position: -2.9rem 0;
+}
+
+.__carousel-item-1>div:last-of-type {
+    background-image: url(/images/menu-foods/dish-3-hotsilog.png);
+    background-position: -1.5rem 0;
+}
+
+/**********************/
+/**********  Slide-2  ************/
+/**********************/
+.__carousel-item-2>div:first-of-type {
+    background-image: url(/images/raw-assets/1-Location/location-4.png);
+    background-position: -5rem 0;
+}
+
+.__carousel-item-2>div:nth-of-type(2) {
+    background-image: url(/images/raw-assets/1-Location/location-5.png);
+    background-position: -2rem 0;
+}
+
+.__carousel-item-2>div:nth-of-type(3) {
+    background-image: url(/images/raw-assets/1-Location/location-6.png);
+    background-position: -2.9rem 0;
+}
+
+.__carousel-item-2>div:last-of-type {
+    background-image: url(/images/raw-assets/1-Location/location-7.png);
+    background-position: -1.5rem 0;
+}
+
+/**********************/
+/**********  Slide-3  ************/
+/**********************/
+
+.__carousel-item-1>div:first-of-type {
+    background-image: url(/images/raw-assets/0-Foods/chicksilog-1.png);
+    background-position: -1.6rem 0;
+}
+
+.__carousel-item-1>div:nth-of-type(2) {
+    background-image: url(/images/raw-assets/0-Foods/sisigsilog-1.png);
+    background-position: -1rem 0;
+}
+
+.__carousel-item-1>div:nth-of-type(3) {
+    background-image: url(/images/raw-assets/0-Foods/tapsilog-1.png);
+    background-position: -2.9rem 0;
+}
+
+.__carousel-item-1>div:last-of-type {
+    background-image: url(/images/menu-foods/dish-3-hotsilog.png);
+    background-position: -1.5rem 0;
+}
+
+/**********************/
+/**********  Slide-2  ************/
+/**********************/
+.__carousel-item-3>div:first-of-type {
+    background-image: url(/images/raw-assets/1-Location/location-9.png);
+    background-position: -5rem 0;
+}
+
+.__carousel-item-3>div:nth-of-type(2) {
+    background-image: url(/images/raw-assets/1-Location/location-10.png);
+    background-position: -2rem 0;
+}
+
+.__carousel-item-3>div:nth-of-type(3) {
+    background-image: url(/images/raw-assets/1-Location/location-11.png);
+    background-position: -2.9rem 0;
+}
+
+.__carousel-item-3>div:last-of-type {
+    background-image: url(/images/raw-assets/1-Location/location-12.png);
+    background-position: -1.5rem 0;
+}
+
+/**********************/
+/**********  Slide-4  ************/
+/**********************/
