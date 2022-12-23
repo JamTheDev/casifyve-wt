@@ -3,6 +3,16 @@
     .__part-1{
         margin-top: 18vh;
     }
+
+    footer{
+        margin-top: 15vh;
+        max-width: 105vw;
+    }
+
+    .__carousel-ctn > section > div:last-child {
+        display: none;
+    }
+
 }
 
 /* For Desktop and Up */
