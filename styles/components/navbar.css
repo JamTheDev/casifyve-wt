@@ -1,4 +1,15 @@
 /********** Navigation Harry Styles ************/
+.navbar-brand.w-50 {
+  position: absolute;
+  margin-left: 42.5vw !important;
+}
+
+.__nav-hamburger > .navbar-collapse{
+  position: relative;
+  width: 95vw !important;    
+}
+
+
 nav > div.container-fluid{
   align-items: flex-start !important; /* Aligns the logo to top*/
 }
