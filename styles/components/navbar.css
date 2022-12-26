@@ -1,15 +1,4 @@
 /********** Navigation Harry Styles ************/
-.navbar-brand.w-50 {
-  position: absolute;
-  margin-left: 42.5vw !important;
-}
-
-.__nav-hamburger > .navbar-collapse{
-  position: relative;
-  width: 95vw !important;    
-}
-
-
 nav > div.container-fluid{
   align-items: flex-start !important; /* Aligns the logo to top*/
 }
@@ -43,10 +32,22 @@ button.navbar-toggler{
   transform: translate(-50%, -50%);
 }
 
-/* IF SCREEN WIDTH < 769px (bootstrap - sm and less) */
+.nav-item:hover, .nav-item:active{
+  border: 3px solid #3e2910;
+  border-style: solid;
+}
+
+
+/* IF SCREEN WIDTH < 769px (bootstrap - md and less) */
 @media screen and (max-width: 769px) {
-  .navbar-nav{
-    /* position: relative;
-    left: 42vw; */
+  .navbar-brand.w-50 {
+    position: absolute;
+    margin-left: 44.5% !important;
   }
+  
+  .__nav-hamburger > .navbar-collapse{
+    position: relative;
+    width: 95vw !important;    
+  }
+
 }

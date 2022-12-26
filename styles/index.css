@@ -89,9 +89,7 @@ body{
 
 /********** GLASS MORPH TEXT ************/
 
-
 .hero-box {
   display: grid;
   place-items:center;
-
 }
