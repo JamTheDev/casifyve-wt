@@ -1,19 +1,18 @@
-@import url("../styles/index.css");
+@import url("../index.css");
 
 /**********/
 /***** Main Footer Styles *****/
 /**********/
-footer{
-    color: #fff;
-    height: 500px; 
+footer{    
+    width: 100vw;
+    height: auto;
+    padding: 0 !important;  
     display: flex;
     justify-content: center;
     align-items: center;
+    color: #fff;
     background-color: #393939;
-    padding: 0 !important;
-    
 }
-
 
 hr{
     width: 65%;
@@ -30,17 +29,17 @@ hr{
     height: 80%;
     width: 70%;
     transform: translate(0, -20%);
+    box-shadow: .5rem 0.7rem 0.2rem 0px rgba(0, 0, 0, 0.3);
 }
-
 
 /**********/
 /***** Container 2 Styles *****/
 /**********/
-.__footer-heading{
-    color: #E3AF6F;
+.__footer-heading,
+.__footer-social-icons > a
+{
+    color: var(--primary-clr-2);
 }
-
-
 
 .__footer-subctn-2{
     font-weight: bold;
@@ -48,25 +47,27 @@ hr{
 
 .__footer-subctn-2 a{
     display: block;
+    color: #fff;
     font-weight: normal;
     text-decoration: none;
-    color: #fff;
+}
+
+.__footer-subctn-2 a:hover{
+    text-decoration: underline;
 }
 
 .__footer-social-icons > i{
     text-shadow: .75px 1.5px 4px darkgrey;
 }
 
-.__footer-ctn-1{
-    box-shadow: .5rem 0.7rem 0.2rem 0px rgba(0, 0, 0, 0.3);
+.__footer-social-icons > a:hover{
+    font-size: 1.65rem;
 }
 
-
+/**********/
+/* Bootstrap Form Style Override) */ 
+/**********/
 .form-control:focus {
-    border-color: #E3AF6F;
+    border-color: var(--primary-clr-2);
     box-shadow: 0 0 0 0.25rem #402300;
-} /* Bootstrap Form Style Override) */ 
-
-/**********/
-/***** TBA *****/
-/**********/
+} 
