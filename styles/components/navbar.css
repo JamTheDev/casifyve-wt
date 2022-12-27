@@ -39,15 +39,22 @@ button.navbar-toggler{
 
 
 /* IF SCREEN WIDTH < 769px (bootstrap - md and less) */
-@media screen and (max-width: 769px) {
+@media screen and (max-width: 769px)  {
   .navbar-brand.w-50 {
     position: absolute;
-    margin-left: 44.5% !important;
+    margin-left: 40.5% !important;
   }
   
   .__nav-hamburger > .navbar-collapse{
     position: relative;
     width: 95vw !important;    
+  }
+
+}
+
+@media screen and (max-width: 769px) and (orientation: landscape)  {
+  .navbar-brand.w-50 {
+    margin-left: 43.5% !important;
   }
 
 }
