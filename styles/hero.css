@@ -1,7 +1,28 @@
 * {
-  --gradient: rgba(255, 255, 255, 0.25) 12.33%, rgba(255, 255, 255, 0) 34.31%, rgba(255, 255, 255, 0) 52.66%, rgba(255, 255, 255, 0.27) 74.67%;
+  --gradient-1: rgba(255, 255, 255, 0.25) 12.33%, rgba(255, 255, 255, 0) 34.31%, rgba(255, 255, 255, 0) 52.66%, rgba(255, 255, 255, 0.27) 74.67%;
+  --gradient-2: #D88700, #FF9F00;
 }
 
+/********** Hero Sect. Styles ************/
+
+.__hero-sec-1, .__hero-sec-2{
+  width: 100vw; 
+} 
+
+.__hero-sec-1{
+  height: 100vh;
+}
+
+.__hero-sec-2{
+  height: auto;
+  color: #fff;
+}
+
+/********** Hero Sect. Styles ************/
+
+.__hero-sec-2 > .row > div{
+  background: linear-gradient(90deg, var(--gradient-2));
+}
 
 .__tapsilog-bg:before {
   background: #000 url("/images/image-bg.png") no-repeat;
@@ -12,7 +33,6 @@
   width: 100vw;
   min-height: 105vh;
   z-index: -2;
-
 }
 
 .__tapsilog-bg>div {
@@ -24,14 +44,10 @@
 }
 
 .glassmorphism {
-  background: linear-gradient(155deg, var(--gradient), linear-gradient(86.16deg, rgba(255, 255, 255, 0.485) 11.14%, rgba(255, 255, 255, 0.05) 100%));
-
+  background: linear-gradient(155deg, var(--gradient-1), linear-gradient(86.16deg, rgba(255, 255, 255, 0.485) 11.14%, rgba(255, 255, 255, 0.05) 100%));
   backdrop-filter: blur(5.5px);
   -webkit-backdrop-filter: blur(5.5px);
-
   background-blend-mode: overlay;
-
   box-shadow: 10px 10px 29px 0px rgba(255, 255, 255, 0.25) inset;
   border: 1.25px solid rgba(255, 255, 255, 0.3);
-
 }

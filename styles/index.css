@@ -1,4 +1,7 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&family=Montserrat:wght@400;600;700&family=Poppins:ital,wght@0,400;0,700;1,400&display=swap'); */
+
+/*https://casifyve-web.jamemmanuelarev.repl.co*/
+
 @import url('https://fonts.googleapis.com/css2?family=Libre+Caslon+Text&display=swap'); 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap');
@@ -8,7 +11,6 @@
 @import url("/styles/components/footer-media.css");
 @import url("/styles/components/navbar.css");
 
-@import url("dishes.css");
 @import url("hero.css");
 
 /* Hero Section */
@@ -30,66 +32,48 @@ font-family: 'Poppins', sans-serif; */
   --secondary-clr-1: #E77F45;
   --secondary-clr-2: #D65B16;
   
-  /* Based on Selected Color Pallete (Unused)   */
+  /* Based on Selected Color Pallete (Un-used)   */
   --primary-text-clr-1: #F5D540;
   --primary-text-clr-2: #FCC13A;
   --primary-text-clr-3: #E69C41;
   --primary-text-clr-4: #FF823D;
   --primary-text-clr-5: #F25638;
-
-  
-  
 }
 
 body{
   overflow-x: hidden;
 }
 
-
-
-
-
-/********** Hero Sect. Styles ************/
-
-/*https://casifyve-web.jamemmanuelarev.repl.co*/
-
-
-/********** GLASS MORPH TEXT ************/
+/********** FONT SIZE STYLES ************/
 .fs-1, .fs-2, .fs-3, .fs-4{
   color:#ffffff !important;
 }
 
-.fs-1{
+.fs-1, .fs-2{
   font-family: 'Libre Caslon Text', serif;
-  font-weight: bold;
-  text-transform: uppercase;  /*oo d gumagana font size */
+}
+
+.fs-1, .fs-4{
+  text-transform: uppercase; 
+}
+
+.fs-1{
+  font-weight: 700;
 }
 
 .fs-2 {
-  font-family: 'Libre Caslon Text', serif;
   letter-spacing: 5px;
   font-weight: 900;
 } 
 
-
-
 .fs-4 {
   font-family: 'Montserrat', sans-serif;
   font-size: 100px;
-  text-transform: uppercase;
   letter-spacing: 2px;
   padding-right: 10px;
-  
 }
 
 .__text-justify{
   text-align: justify;
   text-indent: 1.75rem;
-}
-
-/********** GLASS MORPH TEXT ************/
-
-.hero-box {
-  display: grid;
-  place-items:center;
 }

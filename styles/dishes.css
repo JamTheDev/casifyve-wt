@@ -1,9 +1,0 @@
-.dishes {
-  height: 100vh;
-  color: white;
-
-}
-
-.dishes > .row > div{
-  background: linear-gradient(90deg, #D88700, #FF9F00);
-}
