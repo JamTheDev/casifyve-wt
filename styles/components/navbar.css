@@ -29,6 +29,9 @@ button.navbar-toggler{
   max-height: 100%;
 }
 
+.nav-item{
+  transition: all 0.5s linear 0.4s;
+}
 
 .nav-item:hover, .nav-item:active{
   border: 1.5px solid #3e2910;

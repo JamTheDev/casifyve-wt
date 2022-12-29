@@ -71,3 +71,14 @@ hr{
     border-color: var(--primary-clr-2);
     box-shadow: 0 0 0 0.25rem #402300;
 } 
+
+.__footer-submit-btn  > div > .btn:first-child {
+    border-color: var(--primary-text-clr-1);
+}
+
+.__footer-submit-btn  > div > .btn:first-child:active, 
+.__footer-submit-btn  > div > .btn:first-child:hover {
+    color: var(--primary-text-clr-1);
+    background-color: #523a1d33;
+    border-color: #e3af6f;
+}
