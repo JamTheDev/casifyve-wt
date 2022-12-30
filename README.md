@@ -9,12 +9,12 @@ the public, as well as being used in advertising themselves and their place of b
 
 ## Table of contents
 
-- [General Objective](#general-objective)
-  - [Specific Objectives](#specific-objective)
+- [General Objective](#main-objectives)
+  - [Specific Objectives](#specific-objectives)
   - [Features of the website](#features-of-the-website)
   - [Website Design](#website-design)
 - [Conclusion](#conclusion)
-  - [Recommendation](#recommendation)
+  - [Recommendations](#recommendations)
   - [What we learned](#what-we-learned)
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
@@ -57,13 +57,23 @@ X:
 - Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa quasi nesciunt porro soluta est officiis. 
 Ex dicta nostrum enim voluptatibus obcaecati voluptas ea beatae, consectetur est! Unde ipsa fugiat ullam.
 
-### Recommendation
-Lorem, ipsum dolor sit amet:
-- Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+### Recommendations
+As the limits of this project and plan, there are things this could not cover however it is still worth mentioning for future projects and alike:
+- API integration for additional functionalities. 
+- SEO optimization would enable improved and targeted methods for customers to be aware of the site and business. 
+- Additional security and patches for future revisions. 
+- Possible integration for on-site ordering through APIs.
 
 ### What we learned
-Lorem, ipsum dolor sit amet:
-- Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+- We're able to work as a team that collaborates from planning to website design processes:
+  - __Utilize a Prototyping Tool__ (Figma). Some of these are the basics of creating wireframe, mock-ups, and prototype.
+  - __Brainstorming & Mind Mapping__ the site map or flow of whole website.
+  - __Create a Solid Team's Profile__ that helped us to be more professional with a identity and vision to accomplish the mission.
+- We're able to improve our knowledge and skills by applying it to real world applicatons:
+  - __Social, Leadership, & Collaboration Skills__ which is a
+  - More understanding of __clean readable code__ that would help us communicate as a team when developing the website.
+  - __Technical Coding Skills__ from HTML5 to reponsive CSS styling.
+  
 
 ### Continued development
 Lorem, ipsum dolor sit amet:
@@ -76,11 +86,11 @@ Lorem, ipsum dolor sit amet:
 
 
 ## Authors
-- Fernandez, Joshua
-- Magtajas, Chester
-- Siazon, Mark
-- Villarosa, Jam
-- Yoldi, Jhayrome
+- Fernandez, J.
+- Magtajas, C.
+- Siazon, MA.
+- Villarosa, JE.
+- Yoldi, J.
 
 
 ## Acknowledgments
