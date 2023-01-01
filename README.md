@@ -54,8 +54,7 @@ X:
 <hr>
 
 ## Conclusion
-- Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa quasi nesciunt porro soluta est officiis. 
-Ex dicta nostrum enim voluptatibus obcaecati voluptas ea beatae, consectetur est! Unde ipsa fugiat ullam.
+- Hungry Potters: Kim's Tapsilogan website. Recording the variety of actions taken, from simple to complex, to ensure a successful deployment of the website. Citing intent and reasons as to why each action was taken. Assessments as to the the factor of a successful website would need to fulfil its goal for the business and the company, as a tool for furthering growth and ventures, moreover as an asset for future plans in significant integration in digital and modern systems.
 
 ### Recommendations
 As the limits of this project and plan, there are things this could not cover however it is still worth mentioning for future projects and alike:
