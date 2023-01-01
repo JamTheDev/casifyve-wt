@@ -12,12 +12,12 @@ the public, as well as being used in advertising themselves and their place of b
 - [General Objective](#main-objectives)
   - [Specific Objectives](#specific-objectives)
   - [Features of the website](#features-of-the-website)
-  - [Website Design](#website-design)
+  <!-- - [Website Design](#website-design) -->
 - [Conclusion](#conclusion)
   - [Recommendations](#recommendations)
   - [What we learned](#what-we-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
+  <!-- - [Continued development](#continued-development)
+  - [Useful resources](#useful-resources) -->
 - [Authors](#authors)
 - [Acknowledgments](#acknowledgments)
 
@@ -47,9 +47,9 @@ reflection that is substantiated with satisfactory remarks from customers that e
 * __About Us Page__ - A portion that contains a brief description and information about the business, and most importantly the location 
 to visit and the possible ways to comment and give feedback to the owners. It contains links to the social medias of the business.
 
-### Website Design
+<!-- ### Website Design
 X:
-* X
+* X -->
 
 <hr>
 
@@ -72,18 +72,17 @@ As the limits of this project and plan, there are things this could not cover ho
 - We're able to improve our knowledge and skills by applying it to real world applicatons:
   - __Social, Leadership, & Collaboration Skills__ which is a
   - More understanding of __clean readable code__ that would help us communicate as a team when developing the website.
-  - __Technical Coding Skills__ from HTML5 to reponsive CSS styling.
-  
+  - __Technical Coding Skills__ from HTML5 to responsive CSS styling.
 
-### Continued development
+
+<!-- ### Continued development
 Lorem, ipsum dolor sit amet:
 - Lorem, ipsum dolor sit amet consectetur adipisicing elit.
 
 ### Useful resources
 Lorem, ipsum dolor sit amet:
-- Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+- Lorem, ipsum dolor sit amet consectetur adipisicing elit. -->
 <hr>
-
 
 ## Authors
 - Fernandez, J.
@@ -91,7 +90,6 @@ Lorem, ipsum dolor sit amet:
 - Siazon, MA.
 - Villarosa, JE.
 - Yoldi, J.
-
 
 ## Acknowledgments
 - CasiFYVE is a team of five 1st year college students who have collaborated to help power the companies's website as their 
@@ -102,8 +100,3 @@ its success in the digital age.
 
 - It has been a rewarding journey filled with learning and growth. We look forward to continuing our partnership in the future 
 and are thankful for the valuable experience we gained through this project.
-
-
-
-
-
