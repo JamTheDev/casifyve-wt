@@ -51,3 +51,12 @@
   box-shadow: 10px 10px 29px 0px rgba(255, 255, 255, 0.25) inset;
   border: 1.25px solid rgba(255, 255, 255, 0.3);
 }
+
+.img-cover {
+  background-size: cover;
+  background-position: center;
+
+  background-image: url("../images/menu-foods/dish-4-tapsilog.png");
+  background-repeat: no-repeat;
+  object-fit: contain;
+}
