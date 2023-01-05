@@ -56,9 +56,13 @@
         footer > div.row > div.justify-content-center{
             justify-content: center !important;
         }
-    
+
+        footer > div.row{
+            width: 87.35% !important;
+        }
+        
         .__footer-ctn-1{
-            width: 72.5% !important;
+            /* width: 72.5% !important; */
         }
     
     }
