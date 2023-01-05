@@ -12,6 +12,9 @@ footer{
     align-items: center;
     color: #fff;
     background-color: #393939;
+
+    z-index: 5;
+    position: relative;
 }
 
 hr{

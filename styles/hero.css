@@ -11,6 +11,9 @@
 
 .__hero-sec-1{
   height: 100vh;
+
+  position: relative;
+  z-index: 5;
 }
 
 .__hero-sec-2{
@@ -55,8 +58,9 @@
 .img-cover {
   background-size: cover;
   background-position: center;
+  box-shadow: -2px 0px 25px 15px #c37706;
 
-  background-image: url("../images/menu-foods/dish-4-tapsilog.png");
+  background-image: url("../images/raw-assets/0-Foods/chicksilog-1.png");
   background-repeat: no-repeat;
   object-fit: contain;
 }

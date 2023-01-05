@@ -39,4 +39,18 @@
     .__footer-social-icons{
         padding-left: unset !important;
     }
+
+    footer > div.row{
+        /* background-color: aqua; */
+        width: 95%;
+    }
+
+    footer > div.row > div.justify-content-center{
+        justify-content: start !important;
+    }
+
+    .__footer-ctn-1{
+        width: 90% !important;
+    }
+
 }
