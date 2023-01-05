@@ -1,5 +1,7 @@
 @import url(/styles/index.css);
-
+body{
+    padding: 0 !important;
+}
 main{
     max-height: 1900px;
     /* min-height: 95vh; */
